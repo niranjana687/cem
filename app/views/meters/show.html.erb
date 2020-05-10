@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Energy consumed:</strong>
+  <%= @meter.energy_consumed %>
+</p>
+
+<p>
+  <strong>Total energy credits:</strong>
+  <%= @meter.total_energy_credits %>
+</p>
+
+<p>
+  <strong>Energy credits rate:</strong>
+  <%= @meter.energy_credits_rate %>
+</p>
+
+<p>
+  <strong>Balance:</strong>
+  <%= @meter.balance %>
+</p>
+
+<%= link_to 'Edit', edit_meter_path(@meter) %> |
+<%= link_to 'Back', meters_path %>
