@@ -5,20 +5,9 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version/ Install Ruby https://www.ruby-lang.org/en/documentation/installation/
+* Install Rails http://installrails.com
+* Move to project directory 
+* In terminal type "rails -s"
+* open browser and go to *localhost:3000*
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
