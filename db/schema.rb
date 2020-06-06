@@ -18,8 +18,8 @@ ActiveRecord::Schema.define(version: 2020_05_10_152440) do
   create_table "meters", force: :cascade do |t|
     t.integer "energy_consumed"
     t.integer "total_energy_credits"
-    t.integer "energy_credits_rate"
-    t.integer "balance"
+    t.integer "energy_meter_number", null: false
+    t.integer "balance", check(balance >0)
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
